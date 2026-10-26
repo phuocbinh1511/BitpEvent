@@ -6,6 +6,9 @@ android {
     namespace = "com.example.bitpevent"
     compileSdk {
         version = release(37)
+        buildFeatures {
+            viewBinding = true
+        }
     }
 
     defaultConfig {
